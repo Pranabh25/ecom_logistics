@@ -24,6 +24,9 @@ public class Shipment {
 
     @Column(nullable = false)
     private LocalDateTime deliveryDate;
+    
+    @Column(nullable = false)
+    private String deliveryAddress;
 
 	public int getId() {
 		return id;
